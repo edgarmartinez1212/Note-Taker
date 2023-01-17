@@ -3,5 +3,10 @@
         "title": "testing title",
         "text": "testing text",
         "note_id": "9b7361a2-e5d0-4396-b24d-1f286add8f19"
+    },
+    {
+        "title": "another note",
+        "text": "another text",
+        "note_id": "bac2ea2c-18f2-44ab-aef4-398f70f82b8b"
     }
 ]
