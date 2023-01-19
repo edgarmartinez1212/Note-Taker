@@ -1,12 +1,17 @@
 [
     {
-        "title": "testing title",
-        "text": "testing text",
-        "note_id": "9b7361a2-e5d0-4396-b24d-1f286add8f19"
+        "title": "test",
+        "text": "test",
+        "note_id": "18b5d561-59f0-4044-87e2-33535f833779"
     },
     {
-        "title": "another note",
-        "text": "another text",
-        "note_id": "bac2ea2c-18f2-44ab-aef4-398f70f82b8b"
+        "title": "new title",
+        "text": "new note",
+        "note_id": "f6711359-cf8b-4e05-a3fd-87bcc95ece00"
+    },
+    {
+        "title": "delete this",
+        "text": "delete this",
+        "note_id": "c3fd710f-df88-46b7-ac1d-ee2e4b1d2374"
     }
 ]
