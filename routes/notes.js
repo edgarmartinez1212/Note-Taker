@@ -30,23 +30,10 @@ notes.delete("/:id", (req, res) => {
   readFromFile("./db/db.json")
     .then((data) => JSON.parse(data))
     .then((notes) => {
-      console.log(notes);
       let filteredNotes = notes.filter((note) => note.id !== noteId);
-      writeToFile("./db/db.json", filteredNotes);
+      console.log(filteredNotes);
       res.json(`Note deleted successfully 🚀`);
     });
 });
-
-// notes.delete("/:id", (req, res) => {
-//   const noteId = req.params.id;
-//   readFromFile("./db/db.json")
-//     .then((data) => JSON.parse(data))
-//     .then((notes) => {
-//       console.log(notes);
-//       let filteredNotes = notes.filter((note) => note.id !== noteId);
-//       writeToFile("./db/db.json", filteredNotes);
-//       res.json("Note removed successfully");
-//     });
-// });
 
 module.exports = notes;
