@@ -57,4 +57,4 @@ The following images show the web application's appearance and functionality:
 
 Repository: https://github.com/edgarmartinez1212/Note-Taker
 
-Heroku: https://note-taker-emartinez1212.herokuapp.com/notes
+Heroku: https://note-taker-emartinez1212.herokuapp.com/
